@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         this.nameLayout = nameLayout;
         TextInputLayout emailLayout = (TextInputLayout) findViewById(R.id.emailLayout);
         this.emailLayout = emailLayout;
-        MaterialButton storeButton = (MaterialButton) findViewById(R.id.storeButton);
+        MaterialButton storeButton = (MaterialButton) findViewById(R.id.storeEmailButton);
         this.storeButton = storeButton;
         TextView info = (TextView) findViewById(R.id.infoText);
         this.info = info;

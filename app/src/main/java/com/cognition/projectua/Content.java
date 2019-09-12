@@ -8,5 +8,11 @@ public class Content {
     String tab1;
     String tab2;
     String tab3;
+    String IEA;
+    String IDN;
+    String Database;
+    String store;
+    String info;
+
 
 }
