@@ -69,12 +69,7 @@
             android:layout_width="wrap_content"
 
             android:layout_height="wrap_content"
-            android:text="IEA" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="IDN" />
+            android:text="IEA/IDN" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
@@ -236,6 +231,20 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/storeDomainButton"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Store"
+                    android:textColor="@color/valid"
+                    app:cornerRadius="2dp"
+                    app:rippleColor="@color/white"
+                    app:strokeColor="@color/valid"
+                    app:strokeWidth="1dp" />
+
 
             </LinearLayout>
 

@@ -14,6 +14,7 @@ import com.google.android.material.chip.Chip;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MainActivity extends AppCompatActivity {
     Context context;
@@ -63,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
         logicDrive(email.getText());
         emailValidator();
 
+    }
+
+    void javaStore()
+    {
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
     }
 
     void chipController() {

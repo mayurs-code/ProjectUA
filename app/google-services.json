@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "629882973654",
+    "firebase_url": "https://toornaad.firebaseio.com",
+    "project_id": "toornaad",
+    "storage_bucket": "toornaad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629882973654:android:9ddf6a5199378b845e8877",
+        "android_client_info": {
+          "package_name": "com.cognition.projectua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629882973654-csa74003es6kuvlnu077ut635bohi80g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpKLxHDatLjwtktsJpXElHJXKSB5cmFxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629882973654-csa74003es6kuvlnu077ut635bohi80g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
